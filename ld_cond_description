@@ -1,0 +1,16 @@
+Load Conditions
+
+> Load-Store
+- - IF - ID - EX - MEM - WB
+0	LD
+1	ST	 LD
+2   ??	 ST   LD 
+... continue
+
+> Load-Other
+- - IF - ID - EX - MEM - WB
+0	LD
+1	O1	 LD
+2   O2	 O1   LD 
+3	02 	 01   01X   LD
+... continue

@@ -1,0 +1,14 @@
+f0000000 // 0: Do Nothing
+04100143 // 1: Write R1 = C (0x43)
+04100253 // 2: Write R2 = S (0x53)
+04100345 // 3: Write R3 = E (0x45)
+0a000004 // 4: B + 4
+ffffffff // 5: Garbage
+ffffffff // 6: Garbage
+ffffffff // 7: Garbage
+0a000002 // 8: B + 2
+ffffffff // 9: Garbage
+04001000 // A: Read R1 
+04002000 // B: Read R2  
+04003000 // C: Read R3 
+0afffff7 // D: B -9
